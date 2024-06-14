@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import NavBar from './NavBar'
 import Calender from '../images/calender.png'
+import Footer from './Footer'
 
 
 const Home = () => {
@@ -102,7 +103,7 @@ const Home = () => {
             <img/>
           </div>
         </div>
-
+        <Footer/>
 
     </div>
   )

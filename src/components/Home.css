@@ -173,4 +173,61 @@ nav{
     border: none;
     border-radius: 15px;
     background-color: #12406f;
+    
+    font-size: 18px;
+}
+
+.footer-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    /* background-color: #092b5a; */
+    background-image: linear-gradient(to bottom , #12406f,#12406f);
+    color: #fff;
+}
+.info-itm{
+    margin-top: 2%;
+   
+    font-family:    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    width: 30%;
+}
+.info-itm p{
+    font-size: 16.5px;
+}
+.scl-md-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+.scl-md-icons{
+    width: 40px;
+    height: 40px;
+}
+.scl-md-icons1{
+    width: 20px;
+    height: 20px;
+}
+.cmp-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.info-icon{
+    margin-right: 10px;
+}
+.copyright{
+    
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #063563;
+    font-size: large;
+    justify-content: center;
 }
