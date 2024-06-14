@@ -5,6 +5,7 @@ nav{
     justify-content: space-around;
     color: white;
     align-items: center;
+    width: 100%;
 }
 .left-body{
     margin-left: 5%;
@@ -64,4 +65,112 @@ nav{
         font-weight: 650;
         cursor: pointer;
         margin-right: 10px;
+}
+
+.reminder-slot
+{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly  ;
+    color: rgb(80, 80, 80);
+    text-align: left;
+}
+.rm-slt-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.reminder-slot h1,h2{
+    color: #12406f !important;
+    text-align: left;
+}
+.slt-item-icon img{
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+}
+.slt-item-ctnt{
+    line-height: normal;
+    margin-left: 15px;
+}
+.rating-section{
+    margin-top: 20px;
+    background-color: #f6f6f6;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50vh;
+}
+.item-box{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #12406f;
+    margin: 25px 35px 25px 25px;
+    width: auto;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.item-box h1{
+    font-size: 48px;
+    margin-top: -10;
+}
+.item-box h4{
+    font-size: 20px;
+    margin-top: 0;
+}
+#fst-box{
+    margin-left: 10%;
+}
+#lst-box{
+    margin-right: 10%;
+}
+
+.inquiry-section{
+    display: flex;
+    /* background-color: #f6f6f6; */
+    height: 35vh;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.lft-sec{
+    text-align: left;
+    padding-left: 15px;
+    width: 60%;
+}
+
+.rgh-sec{
+    width: 40%;
+    margin-right: 10%;
+}
+.inq-form{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.email-box{
+    text-align: left;
+    padding-left: 15px;
+    width: 60%;
+    height: 3.5rem;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: rgba(128, 128, 128, 0.6) 2px 2px 2px 2px;
+}
+.inq-form button{
+    width: 20%;
+    height: auto;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: #12406f;
 }
