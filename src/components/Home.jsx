@@ -83,27 +83,7 @@ const Home = () => {
         </div>
       </div>
       <br/>
-      {/* <div className="course-carousal">
-      <button className='prev-btn' onClick={btnPresPrev}><p>&lt;</p></button>
-      <button className='nxt-btn'  onClick={btnPresNext}><p>&gt;</p></button>
-        <div className='Course-container' >
-        
-          <Card name={'Majunu'} />
-          <Card name={'Majunu'}  />
-          <Card name={'Arjun'}/>
-          <Card name={'AAnishrjun'}/>
-          <Card name={'Arjun'}/>
-          <Card name={'Arjun'}/>
-          <Card name={'Arjun'}/>
-          <Card name={'Arjun'}/>
-          <Card name={'Arjun'}/>
-
-        </div>
-        <br/>
-        
-      </div>
-       */}
-      <br />
+            <br />
 
       <div className='slider'>
         <button className='prev-btn' onClick={btnPresPrev}><p>&lt;</p></button>
@@ -128,38 +108,6 @@ const Home = () => {
       </div>
 
       <br />
-      {/* <div className='carousal_wrapper'>
-        <div className='carousal_card'>
-          <Card />
-          <Card />
-          <Card />
-        </div>
-
-      </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div className='rating-section'>
         <div className="item-box" id='fst-box'>
           <h3>Lorem Ipsum</h3>
@@ -227,7 +175,7 @@ const Home = () => {
 
         </div>
         <div className="rgh-sec">
-          <img />
+          <img src='https://img.freepik.com/premium-vector/team-discusses-ideas-developing-business_18660-5387.jpg?w=740' />
         </div>
       </div>
       <Footer />

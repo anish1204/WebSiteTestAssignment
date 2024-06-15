@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <div>
             <div className='footer-body'>
-                <div className="info-itm" style={{ paddingLeft: "29px" }}>
+                <div className="info-itm">
                     <h1>Contact Us</h1>
                     <br />
                     <p>Address: Lorem ipsum dolor sit amet sfwjnf fnwebfb.</p>
